@@ -1,6 +1,7 @@
 # Importing flask module in the project is mandatory
 # An object of Flask class is our WSGI application.
 import io
+import os
 
 import numpy as np
 import tensorflow.keras as K
@@ -36,3 +37,10 @@ def predict():
             for i in range(len(prediction))
         ]
     }
+
+
+if __name__ == "__main__":
+    port = int(
+        os.environ.get("PORT", 8000)
+    )  # Use Render's assigned port or default to 8000
+    app.run(host="0.0.0.0", port=port)
