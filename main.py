@@ -39,6 +39,10 @@ def predict():
     }
 
 
+def t():
+    app.run()
+
+
 if __name__ == "__main__":
     port = int(
         os.environ.get("PORT", 8000)
