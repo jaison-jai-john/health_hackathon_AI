@@ -35,7 +35,7 @@ six==1.17.0
 tensorboard==2.11.2
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
-tensorflow @ file:///mnt/c/Users/LENOVO/downloads/tensorflow-2.11.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=d973458241c8771bf95d4ba68ad5d67b094f72dd181c2d562ffab538c1b0dad7
+tensorflow==2.11.0
 tensorflow-estimator==2.11.0
 tensorflow-io-gcs-filesystem==0.37.1
 termcolor==2.5.0
